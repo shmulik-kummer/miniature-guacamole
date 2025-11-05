@@ -49,4 +49,5 @@ def get_area():
         return jsonify({"error": "Both 'length' and 'width' must be valid numbers."}), 400
 
 if __name__ == '__main__':
+    app.logger.info('Starting Flask application on 0.0.0.0:5000')
     app.run(host='0.0.0.0', debug=True)
