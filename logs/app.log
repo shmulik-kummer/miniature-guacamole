@@ -1,2 +1,74 @@
 2025-11-05 13:11:58,255 INFO: Flask application startup [in /home/kummer/projects/plan-mode-app/./app.py:39]
 2025-11-05 13:12:12,495 INFO: Flask application startup [in /home/kummer/projects/plan-mode-app/./app.py:39]
+2025-11-05 11:31:31,903 - app - INFO - Starting Flask application on 0.0.0.0:5000
+2025-11-05 11:31:32,060 - app - INFO - Starting Flask application on 0.0.0.0:5000
+2025-11-05 11:31:57,495 - app - INFO - Health check endpoint accessed from 127.0.0.1
+2025-11-05 11:31:57,998 - app - INFO - Request to /area endpoint from 127.0.0.1
+2025-11-05 11:31:57,998 - app - INFO - Successful area calculation - length: 5.0, width: 10.0, area: 50.0
+2025-11-05 11:31:58,501 - app - INFO - Request to /area endpoint from 127.0.0.1
+2025-11-05 11:31:58,501 - app - WARNING - Missing parameters - length: 5, width: None
+2025-11-05 11:31:59,004 - app - INFO - Request to /area endpoint from 127.0.0.1
+2025-11-05 11:31:59,004 - app - ERROR - ValueError with invalid input - length_param: abc, width_param: 10
+2025-11-05 11:31:59,507 - app - INFO - Request to /area endpoint from 127.0.0.1
+2025-11-05 11:31:59,507 - app - WARNING - Invalid values (negative or zero) - length: -5.0, width: 10.0
+2025-11-05 11:32:00,010 - app - INFO - Request to /area endpoint from 127.0.0.1
+2025-11-05 11:32:00,010 - app - WARNING - Invalid values (negative or zero) - length: 0.0, width: 10.0
+2025-11-05 11:32:23,120 - app - INFO - Starting Flask application on 0.0.0.0:5000
+2025-11-05 11:32:23,258 - app - INFO - Starting Flask application on 0.0.0.0:5000
+2025-11-05 11:32:26,089 - app - INFO - Request to /area endpoint from 127.0.0.1
+2025-11-05 11:32:26,090 - app - INFO - Successful area calculation - length: 5.0, width: 10.0, area: 50.0
+2025-11-05 11:32:26,092 - app - INFO - Request to /area endpoint from 127.0.0.1
+2025-11-05 11:32:26,092 - app - INFO - Successful area calculation - length: 3.5, width: 2.5, area: 8.75
+2025-11-05 11:32:26,094 - app - INFO - Request to /area endpoint from 127.0.0.1
+2025-11-05 11:32:26,095 - app - WARNING - Missing parameters - length: None, width: 10
+2025-11-05 11:32:26,096 - app - INFO - Request to /area endpoint from 127.0.0.1
+2025-11-05 11:32:26,097 - app - WARNING - Missing parameters - length: 5, width: None
+2025-11-05 11:32:26,098 - app - INFO - Request to /area endpoint from 127.0.0.1
+2025-11-05 11:32:26,099 - app - WARNING - Missing parameters - length: None, width: None
+2025-11-05 11:32:26,100 - app - INFO - Request to /area endpoint from 127.0.0.1
+2025-11-05 11:32:26,100 - app - ERROR - ValueError with invalid input - length_param: abc, width_param: 10
+2025-11-05 11:32:26,102 - app - INFO - Request to /area endpoint from 127.0.0.1
+2025-11-05 11:32:26,102 - app - WARNING - Invalid values (negative or zero) - length: -5.0, width: 10.0
+2025-11-05 11:32:26,104 - app - INFO - Request to /area endpoint from 127.0.0.1
+2025-11-05 11:32:26,104 - app - WARNING - Invalid values (negative or zero) - length: 0.0, width: 10.0
+2025-11-05 11:33:01,551 - app - INFO - Starting Flask application on 0.0.0.0:5000
+2025-11-05 11:33:01,686 - app - INFO - Starting Flask application on 0.0.0.0:5000
+2025-11-05 11:33:04,520 - app - INFO - Request to /area endpoint from 127.0.0.1
+2025-11-05 11:33:04,520 - app - INFO - Successful area calculation - length: 5.0, width: 10.0, area: 50.0
+2025-11-05 11:33:04,523 - app - INFO - Request to /area endpoint from 127.0.0.1
+2025-11-05 11:33:04,523 - app - ERROR - ValueError with invalid input - length_param: invalid, width_param: 10
+2025-11-05 11:33:31,220 - app - INFO - Starting Flask application on 0.0.0.0:5000
+2025-11-05 11:33:31,358 - app - INFO - Starting Flask application on 0.0.0.0:5000
+2025-11-05 11:33:34,187 - app - INFO - Request to /area endpoint from 127.0.0.1
+2025-11-05 11:33:34,187 - app - INFO - Successful area calculation - length: 5.0, width: 10.0, area: 50.0
+2025-11-05 11:33:58,450 - app - INFO - Starting Flask application on 0.0.0.0:5000
+2025-11-05 11:33:58,585 - app - INFO - Starting Flask application on 0.0.0.0:5000
+2025-11-05 11:34:01,419 - app - INFO - Request to /area endpoint from 127.0.0.1
+2025-11-05 11:34:01,419 - app - DEBUG - Request arguments: {'length': '5', 'width': '10'}
+2025-11-05 11:34:01,419 - app - INFO - Successful area calculation - length: 5.0, width: 10.0, area: 50.0
+2025-11-05 11:34:10,187 - app - INFO - Starting Flask application on 0.0.0.0:5000
+2025-11-05 11:34:10,324 - app - INFO - Starting Flask application on 0.0.0.0:5000
+2025-11-05 11:34:13,154 - app - INFO - Request to /area endpoint from 127.0.0.1
+2025-11-05 11:34:13,154 - app - DEBUG - Request arguments: {'length': '5', 'width': '10'}
+2025-11-05 11:34:13,154 - app - INFO - Successful area calculation - length: 5.0, width: 10.0, area: 50.0
+2025-11-05 11:34:13,157 - app - INFO - Request to /area endpoint from 127.0.0.1
+2025-11-05 11:34:13,157 - app - DEBUG - Request arguments: {'length': '3.5', 'width': '2.5'}
+2025-11-05 11:34:13,157 - app - INFO - Successful area calculation - length: 3.5, width: 2.5, area: 8.75
+2025-11-05 11:34:13,159 - app - INFO - Request to /area endpoint from 127.0.0.1
+2025-11-05 11:34:13,159 - app - DEBUG - Request arguments: {'width': '10'}
+2025-11-05 11:34:13,159 - app - WARNING - Missing parameters - length: None, width: 10
+2025-11-05 11:34:13,161 - app - INFO - Request to /area endpoint from 127.0.0.1
+2025-11-05 11:34:13,161 - app - DEBUG - Request arguments: {'length': '5'}
+2025-11-05 11:34:13,161 - app - WARNING - Missing parameters - length: 5, width: None
+2025-11-05 11:34:13,163 - app - INFO - Request to /area endpoint from 127.0.0.1
+2025-11-05 11:34:13,163 - app - DEBUG - Request arguments: {}
+2025-11-05 11:34:13,163 - app - WARNING - Missing parameters - length: None, width: None
+2025-11-05 11:34:13,165 - app - INFO - Request to /area endpoint from 127.0.0.1
+2025-11-05 11:34:13,165 - app - DEBUG - Request arguments: {'length': 'abc', 'width': '10'}
+2025-11-05 11:34:13,165 - app - ERROR - ValueError with invalid input - length_param: abc, width_param: 10
+2025-11-05 11:34:13,167 - app - INFO - Request to /area endpoint from 127.0.0.1
+2025-11-05 11:34:13,167 - app - DEBUG - Request arguments: {'length': '-5', 'width': '10'}
+2025-11-05 11:34:13,167 - app - WARNING - Invalid values (negative or zero) - length: -5.0, width: 10.0
+2025-11-05 11:34:13,168 - app - INFO - Request to /area endpoint from 127.0.0.1
+2025-11-05 11:34:13,168 - app - DEBUG - Request arguments: {'length': '0', 'width': '10'}
+2025-11-05 11:34:13,169 - app - WARNING - Invalid values (negative or zero) - length: 0.0, width: 10.0
